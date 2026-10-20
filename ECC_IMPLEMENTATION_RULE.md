@@ -25,6 +25,6 @@
    - 근본 원인(Root Cause) 진단 -> 가설 수립 -> 정밀 수정 -> 재검증 통과 루프 수행.
 
 5. **`[최종 완성 (Final Completion)]`**
-   - 실측 증거 제시, 산출물 파일 링크(`file://`), 결론 우선 3~5줄 요약 보고.
+   - 실측 증거 및 핵심 산출물 링크를 포함하여 **최대 3줄 이내**로 압축 요약 보고.
 
 *상세 명세는 [`STANDARDS/00_HIGHEST_PRIORITY_ECC_WORKFLOW.md`](STANDARDS/00_HIGHEST_PRIORITY_ECC_WORKFLOW.md)를 참조하십시오.*

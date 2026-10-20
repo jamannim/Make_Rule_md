@@ -28,7 +28,7 @@ flowchart LR
 2. **`[실행 (Execute)]`**: 단순성 우선(Simplicity First), 불필요한 추상화 금지, 엄격한 타입 준수(Zero `any`, Zero `as`).
 3. **`[검증 (Verify)]`**: 실측 증거주의(Evidence Before Assertion). 빌드/테스트 명령어 실제 실행 및 종료 코드(Exit Code 0) 확인.
 4. **`[재시도 (Retry)]`**: 검증 실패 시 근본 원인(Root Cause) 진단 후 자율 디버그 루프 수행 (성공할 때까지 반복).
-5. **`[최종 완성 (Final Completion)]`**: 결론 우선 요약, 실측 증거 데이터, 산출물 파일 링크(`file://`) 제공.
+5. **`[최종 완성 (Final Completion)]`**: 핵심 결과, 실측 증거, 파일 링크를 포함하여 **최대 3줄 이내**로 간결히 보고.
 
 *상세 명세: [`STANDARDS/00_HIGHEST_PRIORITY_ECC_WORKFLOW.md`](STANDARDS/00_HIGHEST_PRIORITY_ECC_WORKFLOW.md) 및 [`ECC_IMPLEMENTATION_RULE.md`](ECC_IMPLEMENTATION_RULE.md)*
 
