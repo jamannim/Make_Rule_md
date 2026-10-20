@@ -1,8 +1,16 @@
 {
   "name": "Make_Rule_md",
   "description": "Open Source Markdown (*.md) Benchmarks & Authoring Standards for AI Agents and Developers",
-  "updated_at": "2026-10-20T09:36:00+09:00",
+  "updated_at": "2026-10-20T09:40:00+09:00",
   "sources": [
+    {
+      "name": "ecc",
+      "target_subpath": "ecc",
+      "repository_url": "https://github.com/affaan-m/ecc.git",
+      "commit": "5af4395e5c52643b7f5ecc716079cd253504b354",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "benchmark_role": "HIGHEST PRIORITY IMPLEMENTATION PROCEDURE (계획 -> 실행 -> 검증 -> 재시도 -> 최종 완성), Research-First, TDD, Agent Harness, Error Resolvers"
+    },
     {
       "name": "awesome-design-md",
       "target_subpath": "awesome-design-md/design-md",
