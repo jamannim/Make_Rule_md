@@ -1,0 +1,47 @@
+{
+  "name": "Make_Rule_md",
+  "description": "Open Source Markdown (*.md) Benchmarks & Authoring Standards for AI Agents and Developers",
+  "updated_at": "2026-10-20T09:36:00+09:00",
+  "sources": [
+    {
+      "name": "awesome-design-md",
+      "target_subpath": "awesome-design-md/design-md",
+      "repository_url": "https://github.com/VoltAgent/awesome-design-md.git",
+      "commit": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "description": "Curated collection of DESIGN.md files and specs (Google Stitch / Google Labs plain-text design system standard for AI agents).",
+      "benchmark_role": "DESIGN.md standard, YAML frontmatter tokens, brand visual consistency"
+    },
+    {
+      "name": "Figma-Context-MCP",
+      "target_subpath": "Figma-Context-MCP/README.md",
+      "repository_url": "https://github.com/GLips/Figma-Context-MCP.git",
+      "commit": "c083d65c7e002923e7cb98f4e3bdafb105e90f6d",
+      "description": "Figma Model Context Protocol server bridging UI designs into LLM-optimized CSS-aligned properties.",
+      "benchmark_role": "MCP README architecture, CLAUDE.md developer standards, token efficiency, comment policy"
+    },
+    {
+      "name": "firecrawl-mcp-server",
+      "target_subpath": "firecrawl-mcp-server/README.md",
+      "repository_url": "https://github.com/firecrawl/firecrawl-mcp-server.git",
+      "commit": "a86bef5ebf3e563ed0406c4263299f8faa05b1f6",
+      "description": "Official Firecrawl MCP server for scraping, crawling, and web data extraction.",
+      "benchmark_role": "Production MCP README benchmark, tool selection matrix, multi-client installation guides, schemas"
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "target_subpath": "chrome-devtools-mcp",
+      "repository_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+      "commit": "f874aeb96ae58587c509d3da4707bcba1a4074b5",
+      "description": "Official Chrome DevTools MCP server and CLI for browser automation and debugging.",
+      "benchmark_role": "AGENTS.md agent instruction standard, strict TypeScript rules, testing/mocking guidelines, Google engineering standards"
+    },
+    {
+      "name": "magic-mcp",
+      "target_subpath": "magic-mcp",
+      "repository_url": "https://github.com/21st-dev/magic-mcp.git",
+      "commit": "6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55",
+      "description": "21st.dev Magic MCP server for UI generation and component discovery across Cursor, Claude, and Codex.",
+      "benchmark_role": "Modern AI component generation standard, skills layout, llms-install.md patterns"
+    }
+  ]
+}
